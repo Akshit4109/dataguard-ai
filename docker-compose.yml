@@ -1,0 +1,40 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: dataguard-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: dataguard_user
+      POSTGRES_PASSWORD: dataguard_password
+      POSTGRES_DB: dataguard_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dataguard_user -d dataguard_db"]
+      interval: 3s
+      timeout: 3s
+      retries: 5
+
+  dataguard-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dataguard-api
+    restart: unless-stopped
+    environment:
+      - APP_NAME=DataGuard AI
+      - APP_ENV=production
+      - DEBUG=false
+      - LOG_LEVEL=INFO
+      - DATABASE_URL=postgresql://dataguard_user:dataguard_password@postgres:5432/dataguard_db
+    ports:
+      - "8001:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+    name: dataguard_postgres_data

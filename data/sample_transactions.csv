@@ -1,0 +1,151 @@
+transaction_id,customer_id,transaction_date,amount,payment_method,merchant_category,city,transaction_status
+TXN-10001,CUST-1040,2026-03-01 08:49:00,47.27,Debit Card,Electronics,Chicago,Completed
+TXN-10002,CUST-1047,2026-03-01 09:34:00,1018.28,Wallet,Groceries,Seattle,Completed
+TXN-10003,CUST-1002,2026-03-01 10:16:00,149.61,UPI,Healthcare,Seattle,Completed
+TXN-10004,CUST-1035,2026-03-01 11:07:00,1076.87,Wallet,Travel,Chicago,Completed
+TXN-10005,CUST-1037,2026-03-01 11:54:00,1216.05,Credit Card,Electronics,Boston,Completed
+TXN-10006,CUST-1021,2026-03-01 12:39:00,241.66,Debit Card,Groceries,New York,Completed
+TXN-10007,CUST-1006,2026-03-01 13:27:00,1272.77,Wallet,Dining,Denver,Completed
+TXN-10008,CUST-1046,2026-03-01 14:15:00,808.98,Net Banking,Groceries,Seattle,Completed
+TXN-10009,CUST-1040,2026-03-01 15:05:00,1329.32,Debit Card,Healthcare,Chicago,Failed
+TXN-10010,CUST-1004,2026-03-01 15:32:00,995.28,Debit Card,Groceries,Denver,Completed
+TXN-10011,CUST-1006,2026-03-01 16:28:00,424.18,Debit Card,Electronics,San Francisco,Completed
+TXN-10012,CUST-1013,2026-03-01 17:09:00,1055.71,Credit Card,Healthcare,Boston,Completed
+TXN-10013,CUST-1034,2026-03-01 17:53:00,253.47,Net Banking,Dining,Boston,Failed
+TXN-10014,CUST-1035,2026-03-01 18:38:00,1030.08,Credit Card,Electronics,Denver,Completed
+TXN-10015,CUST-1020,2026-03-01 19:28:00,408.93,UPI,Healthcare,Boston,Completed
+TXN-10016,CUST-1013,2026-03-01 20:16:00,,Net Banking,Electronics,San Francisco,Completed
+TXN-10017,CUST-1015,2026-03-01 21:03:00,813.08,Wallet,Travel,Seattle,Completed
+TXN-10018,CUST-1023,2026-03-01 21:38:00,1496.02,UPI,Healthcare,Austin,Completed
+TXN-10019,CUST-1048,2026-03-01 22:17:00,1293.04,UPI,Entertainment,Chicago,Failed
+TXN-10020,CUST-1027,2026-03-01 23:20:00,104.66,Net Banking,Healthcare,Austin,Pending
+TXN-10021,CUST-1016,2026-03-02 00:03:00,1292.56,Credit Card,Entertainment,Boston,Completed
+TXN-10022,CUST-1043,2026-03-02 00:48:00,1128.81,Debit Card,Groceries,San Francisco,Completed
+TXN-10023,CUST-1010,2026-03-02 01:30:00,14.84,Debit Card,Healthcare,Denver,Completed
+TXN-10024,CUST-1032,2026-03-02 02:04:00,1307.07,Debit Card,Entertainment,Seattle,Pending
+TXN-10025,CUST-1012,2026-03-02 02:50:00,567.13,UPI,Healthcare,Denver,Pending
+TXN-10026,CUST-1000,2026-03-02 03:50:00,492.99,Credit Card,Groceries,San Francisco,Completed
+TXN-10027,CUST-1015,2026-03-02 04:17:00,368.9,Wallet,Groceries,New York,Failed
+TXN-10028,CUST-1031,2026-03-02 05:03:00,1467.2,Wallet,Electronics,Chicago,Failed
+TXN-10029,CUST-1030,2026-03-02 06:03:00,256.04,Wallet,Healthcare,Austin,Completed
+TXN-10030,CUST-1034,2026-03-02 06:37:00,1072.29,Net Banking,Entertainment,Boston,Completed
+TXN-10031,CUST-1028,2026-03-02 07:32:00,682.71,UPI,Electronics,New York,Completed
+TXN-10032,CUST-1001,2026-03-02 08:19:00,835.34,Wallet,Electronics,New York,Completed
+TXN-10033,CUST-1045,2026-03-02 08:47:00,351.12,,Dining,New York,Pending
+TXN-10034,CUST-1015,2026-03-02 09:39:00,1006.78,UPI,Healthcare,Chicago,Failed
+TXN-10035,CUST-1036,2026-03-02 10:34:00,714.28,Net Banking,Travel,Chicago,Completed
+TXN-10036,CUST-1006,2026-03-02 11:14:00,537.9,Net Banking,Travel,Denver,Failed
+TXN-10037,CUST-1003,2026-03-02 11:49:00,100.31,Debit Card,Groceries,Chicago,Completed
+TXN-10038,CUST-1012,2026-03-02 12:48:00,678.43,Net Banking,Electronics,San Francisco,Completed
+TXN-10039,CUST-1015,2026-03-02 13:18:00,670.26,Wallet,Groceries,New York,Failed
+TXN-10040,CUST-1034,2026-03-02 14:01:00,1453.8,UPI,Electronics,Austin,Completed
+TXN-10041,CUST-1030,2026-03-02 14:52:00,1298.33,Credit Card,Electronics,Austin,Completed
+TXN-10042,CUST-1024,2026-03-02 15:39:00,1390.51,Net Banking,Dining,Austin,Failed
+TXN-10043,CUST-1046,2026-03-02 16:33:00,996.19,Net Banking,Electronics,Chicago,Completed
+TXN-10044,CUST-1013,2026-03-02 17:02:00,872.98,Wallet,Groceries,Boston,Completed
+TXN-10045,CUST-1003,2026-03-02 17:47:00,880.42,Wallet,Healthcare,Chicago,Completed
+TXN-10046,CUST-1032,2026-03-02 18:33:00,1278.5,Credit Card,Healthcare,New York,Failed
+TXN-10047,CUST-1015,2026-03-02 19:28:00,188.63,Wallet,Electronics,Seattle,Pending
+TXN-10048,CUST-1002,2026-03-02 20:20:00,132.16,Wallet,Healthcare,Seattle,Completed
+TXN-10049,CUST-1016,2026-03-02 20:52:00,1007.89,Debit Card,Electronics,San Francisco,Completed
+TXN-10050,CUST-1008,2026-03-02 21:40:00,691.26,Credit Card,Groceries,Austin,Pending
+TXN-10051,CUST-1036,2026-03-02 22:19:00,45000.0,UPI,Healthcare,San Francisco,Completed
+TXN-10052,CUST-1022,2026-03-02 23:03:00,1320.11,Debit Card,Dining,Chicago,Completed
+TXN-10053,CUST-1034,2026-03-02 23:55:00,921.4,Wallet,Groceries,Boston,Pending
+TXN-10054,CUST-1019,2026-03-03 00:34:00,1409.01,UPI,Dining,New York,Completed
+TXN-10055,CUST-1047,2026-03-03 01:33:00,241.62,Debit Card,Healthcare,Chicago,Failed
+TXN-10056,CUST-1021,2026-03-03 02:07:00,1034.37,Debit Card,Healthcare,Austin,Completed
+TXN-10057,CUST-1003,2026-03-03 02:48:00,955.08,Debit Card,Groceries,New York,Completed
+TXN-10058,CUST-1049,2026-03-03 03:35:00,959.3,Debit Card,Electronics,Boston,Completed
+TXN-10059,CUST-1035,2026-03-03 04:29:00,845.75,Credit Card,Groceries,Boston,Completed
+TXN-10060,CUST-1034,2026-03-03 05:02:00,1253.55,Wallet,Healthcare,Chicago,Completed
+TXN-10061,CUST-1008,2026-03-03 05:47:00,469.3,Credit Card,Dining,Chicago,Failed
+TXN-10062,CUST-1015,2026-03-03 06:34:00,536.98,Wallet,Travel,Seattle,Failed
+TXN-10063,CUST-1009,2026-03-03 07:23:00,1298.26,UPI,Travel,New York,Completed
+TXN-10064,CUST-1047,2026-03-03 08:11:00,1175.76,Net Banking,Entertainment,Denver,Failed
+TXN-10065,CUST-1015,2026-03-03 08:54:00,247.2,Credit Card,Travel,Denver,Completed
+TXN-10066,CUST-1030,2026-03-03 09:38:00,307.36,Net Banking,Dining,,Completed
+TXN-10067,CUST-1014,2026-03-03 10:16:00,993.45,Net Banking,Dining,San Francisco,Completed
+TXN-10068,CUST-1049,2026-03-03 11:09:00,533.21,Wallet,Travel,Boston,Pending
+TXN-10069,CUST-1021,2026-03-03 11:46:00,181.86,Debit Card,Electronics,Seattle,Completed
+TXN-10070,CUST-1002,2026-03-03 12:34:00,898.89,Debit Card,Entertainment,Denver,Completed
+TXN-10071,CUST-1027,2026-03-03 13:35:00,1476.51,Credit Card,Travel,Seattle,Completed
+TXN-10072,CUST-1016,2026-03-03 14:02:00,1066.09,Credit Card,Healthcare,Denver,Pending
+TXN-10073,CUST-1043,2026-03-03 14:52:00,552.69,Credit Card,Entertainment,San Francisco,Pending
+TXN-10074,CUST-1020,2026-03-03 15:34:00,1082.43,Debit Card,Healthcare,San Francisco,Failed
+TXN-10075,CUST-1026,2026-03-03 16:26:00,609.58,Debit Card,Healthcare,Chicago,Completed
+TXN-10076,CUST-1026,2026-03-03 17:13:00,1019.2,UPI,Healthcare,Seattle,Completed
+TXN-10077,CUST-1025,2026-03-03 18:03:00,1252.25,Debit Card,Dining,Chicago,Completed
+TXN-10078,CUST-1050,2026-03-03 18:49:00,913.93,Debit Card,Travel,Austin,Completed
+TXN-10079,CUST-1043,2026-03-03 19:22:00,771.65,UPI,Entertainment,New York,Completed
+TXN-10080,CUST-1032,2026-03-03 20:20:00,509.43,UPI,Entertainment,San Francisco,Completed
+TXN-10081,CUST-1012,2026-03-03 20:50:00,46.39,UPI,Travel,Seattle,Completed
+TXN-10082,CUST-1029,2026-03-03 21:44:00,1330.34,Wallet,Electronics,Boston,Failed
+TXN-10083,CUST-1024,2026-03-03 22:31:00,605.48,UPI,Entertainment,Boston,Completed
+TXN-10084,CUST-1048,2026-03-03 23:04:00,1169.85,UPI,Electronics,Denver,Failed
+TXN-10085,CUST-1033,2026-03-04 00:00:00,84.83,UPI,Groceries,Austin,Completed
+TXN-10086,CUST-1029,2026-03-04 00:47:00,1481.96,Wallet,Dining,Denver,Completed
+TXN-10087,CUST-1039,2026-03-04 01:32:00,645.84,Wallet,Travel,Chicago,Failed
+TXN-10088,CUST-1030,2026-03-04 02:15:00,396.2,UPI,Entertainment,San Francisco,Pending
+TXN-10089,CUST-1031,2026-03-04 02:53:00,419.15,Credit Card,Entertainment,San Francisco,Completed
+TXN-10090,CUST-1017,2026-03-04 03:41:00,486.37,Wallet,Groceries,Chicago,Completed
+TXN-10091,CUST-1014,2026-03-04 04:28:00,,UPI,Groceries,Austin,Completed
+TXN-10092,CUST-1021,2026-03-04 05:18:00,704.23,Credit Card,Electronics,Denver,Completed
+TXN-10093,CUST-1024,2026-03-04 06:04:00,1419.63,Credit Card,Healthcare,Austin,Completed
+TXN-10094,CUST-1000,2026-03-04 06:42:00,454.93,Net Banking,Travel,Seattle,Failed
+TXN-10095,CUST-1047,2026-03-04 07:33:00,1201.8,UPI,Travel,Chicago,Completed
+TXN-10096,CUST-1027,2026-03-04 08:16:00,53.25,Debit Card,Entertainment,Boston,Completed
+TXN-10097,CUST-1046,2026-03-04 08:51:00,1262.35,UPI,Healthcare,Seattle,Completed
+TXN-10098,CUST-1025,2026-03-04 09:49:00,850.94,Credit Card,Groceries,Boston,Completed
+TXN-10099,CUST-1008,2026-03-04 10:30:00,280.78,Debit Card,Travel,San Francisco,Completed
+TXN-10100,CUST-1029,2026-03-04 11:11:00,512.88,Net Banking,Dining,Denver,Completed
+TXN-10101,CUST-1016,2026-03-04 11:48:00,89000.0,Wallet,Groceries,San Francisco,Completed
+TXN-10102,CUST-1041,2026-03-04 12:33:00,1174.04,Credit Card,Groceries,Chicago,Completed
+TXN-10103,CUST-1001,2026-03-04 13:35:00,237.05,UPI,Travel,Boston,Completed
+TXN-10104,CUST-1036,2026-03-04 14:07:00,702.9,Debit Card,Dining,Chicago,Pending
+TXN-10105,CUST-1038,2026-03-04 14:49:00,1168.91,UPI,Dining,New York,Pending
+TXN-10106,CUST-1001,2026-03-04 15:40:00,867.94,Net Banking,Travel,Boston,Completed
+TXN-10107,CUST-1004,2026-03-04 16:34:00,1039.02,UPI,Groceries,Boston,Completed
+TXN-10108,CUST-1043,2026-03-04 17:20:00,1210.24,Wallet,Groceries,San Francisco,Pending
+TXN-10109,CUST-1027,2026-03-04 17:57:00,112.75,Debit Card,Groceries,Denver,Completed
+TXN-10110,CUST-1031,2026-03-04 18:34:00,655.95,Debit Card,Entertainment,Denver,Completed
+TXN-10111,CUST-1045,2026-03-04 19:20:00,658.88,,Entertainment,San Francisco,Pending
+TXN-10112,CUST-1034,2026-03-04 20:16:00,702.66,Wallet,Dining,San Francisco,Completed
+TXN-10113,CUST-1005,2026-03-04 20:54:00,1323.63,UPI,Travel,Seattle,Pending
+TXN-10114,CUST-1042,2026-03-04 21:43:00,511.23,Net Banking,Dining,Chicago,Completed
+TXN-10115,CUST-1013,2026-03-04 22:27:00,1198.77,Debit Card,Dining,Seattle,Failed
+TXN-10116,CUST-1017,2026-03-04 23:18:00,25.13,UPI,Groceries,Chicago,Failed
+TXN-10117,CUST-1026,2026-03-05 00:01:00,837.21,UPI,Entertainment,Austin,Failed
+TXN-10118,CUST-1045,2026-03-05 00:46:00,677.78,Credit Card,Groceries,San Francisco,Completed
+TXN-10119,CUST-1025,2026-03-05 01:23:00,466.25,Wallet,Dining,Austin,Pending
+TXN-10120,CUST-1033,2026-03-05 02:12:00,644.0,Wallet,Dining,San Francisco,Failed
+TXN-10121,CUST-1029,2026-03-05 02:54:00,466.87,UPI,Groceries,Boston,Completed
+TXN-10122,CUST-1020,2026-03-05 03:34:00,1116.89,UPI,Electronics,Chicago,Failed
+TXN-10123,CUST-1030,2026-03-05 04:24:00,1089.63,Wallet,Healthcare,San Francisco,Completed
+TXN-10124,CUST-1012,2026-03-05 05:10:00,348.95,UPI,Dining,New York,Failed
+TXN-10125,CUST-1034,2026-03-05 05:50:00,418.72,Credit Card,Healthcare,San Francisco,Failed
+TXN-10126,CUST-1008,2026-03-05 06:46:00,162.86,Credit Card,Healthcare,San Francisco,Completed
+TXN-10127,CUST-1030,2026-03-05 07:30:00,517.65,Credit Card,Dining,Denver,Completed
+TXN-10128,CUST-1007,2026-03-05 08:03:00,607.05,Credit Card,Healthcare,Boston,Failed
+TXN-10129,CUST-1003,2026-03-05 08:50:00,232.3,Wallet,Dining,New York,Completed
+TXN-10130,CUST-1007,2026-03-05 09:48:00,1149.02,Wallet,Healthcare,Denver,Pending
+TXN-10131,CUST-1014,2026-03-05 10:32:00,576.76,Net Banking,Dining,Denver,Pending
+TXN-10132,CUST-1027,2026-03-05 11:10:00,857.26,Credit Card,Healthcare,Boston,Completed
+TXN-10133,CUST-1048,2026-03-05 11:52:00,942.02,Debit Card,Entertainment,New York,Completed
+TXN-10134,CUST-1015,2026-03-05 12:36:00,832.47,UPI,Groceries,Austin,Completed
+TXN-10135,CUST-1044,2026-03-05 13:35:00,710.17,Credit Card,Electronics,San Francisco,Failed
+TXN-10136,CUST-1018,2026-03-05 14:15:00,116.06,UPI,Dining,Denver,Failed
+TXN-10137,CUST-1037,2026-03-05 14:52:00,643.46,Wallet,Electronics,Boston,Completed
+TXN-10138,CUST-1017,2026-03-05 15:35:00,116.4,UPI,Dining,Seattle,Failed
+TXN-10139,CUST-1036,2026-03-05 16:25:00,664.34,Net Banking,Entertainment,San Francisco,Failed
+TXN-10140,CUST-1025,2026-03-05 17:09:00,755.7,Net Banking,Travel,New York,Pending
+TXN-10141,CUST-1002,2026-03-05 17:59:00,1104.46,Wallet,Dining,New York,Completed
+TXN-10142,CUST-1014,2026-03-05 18:49:00,884.81,Credit Card,Entertainment,Denver,Completed
+TXN-10143,CUST-1036,2026-03-05 19:17:00,1147.03,UPI,Travel,Seattle,Failed
+TXN-10144,CUST-1028,2026-03-05 20:09:00,280.42,Wallet,Travel,Boston,Completed
+TXN-10145,CUST-1005,2026-03-05 21:01:00,528.46,Debit Card,Dining,Boston,Completed
+TXN-10146,CUST-1010,2026-03-05 21:41:00,623.35,Net Banking,Dining,Boston,Completed
+TXN-10147,CUST-1048,2026-03-05 22:33:00,64.68,Credit Card,Dining,San Francisco,Completed
+TXN-10148,CUST-1007,2026-03-05 23:13:00,1298.72,Credit Card,Entertainment,Denver,Pending
+TXN-10011,CUST-1006,2026-03-01 16:28:00,424.18,Debit Card,Electronics,San Francisco,Completed
+TXN-10026,CUST-1000,2026-03-02 03:50:00,492.99,Credit Card,Groceries,San Francisco,Completed
