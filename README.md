@@ -1,5 +1,6 @@
 # DataGuard AI — Data Quality & Anomaly Detection Platform
 
+[![Tests](https://github.com/Akshit4109/dataguard-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/Akshit4109/dataguard-ai/actions/workflows/tests.yml)
 [![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115%2B-009688.svg)](https://fastapi.tiangolo.com/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-2496ED.svg)](https://www.docker.com/)
